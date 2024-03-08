@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,400&display=swap")
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-b from-yellow-500 to-yellow-400 w-screen h-screen flex justify-center mt-7 lg:mt-10;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: , sans-serif;
+}
+label {
+  @apply p-2;
+}
+input {
+  @apply text-slate-100 p-2 w-60 lg:w-96 font-extrabold rounded-lg outline-none bg-transparent border border-slate-100 focus:right-2 focus:ring-slate-100 focus:border-none transition-all duration-150 placeholder:text-slate-50;
+}
